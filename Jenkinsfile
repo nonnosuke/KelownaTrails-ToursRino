@@ -23,10 +23,11 @@ pipeline {
 
         stage('Production') {
 	     steps {
-		withCredentials([string(credentialsId: 'FIREBASE_TOKEN', variable: 'FIREBASE_TOKEN')])
+		withCredentials([string(credentialsId: 'FIREBASE_TOKEN', variable: 'FIREBASE_TOKEN')]){
                 sh 'firebase use production'
                 sh 'firebase deploy --only hosting'
             }
         }
+	}
     }
 }
