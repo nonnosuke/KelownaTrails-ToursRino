@@ -1,5 +1,7 @@
 {
   "projects": {
     "default": "kelownatrails-tours-9e782"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
