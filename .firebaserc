@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "kelownatrails-tours-9e782"
+    "default": "kelownatrails-tours-9e782",
     "staging": "kelownatrails-tours-9e782",
     "production": "kelownatrails-tours-9e782"
   },
